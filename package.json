@@ -29,8 +29,8 @@
     "nodemon": "^2.0.1"
   },
   "scripts": {
-    "start": "node server.js",
-    "backend": "nodemon server.js"
+    "start": "node index.js",
+    "backend": "nodemon index.js"
   },
   "repository": "https://github.com/linspw/DiscoverWorldB.git",
   "author": "linspw <linspw@hotmail.com>"

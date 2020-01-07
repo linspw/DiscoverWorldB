@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
         table.increments('id').primary()
         table.string('name').notNull()
         table.string('email').notNull().unique()
-        table.string('user').notNull()
+        table.string('user').notNull().unique()
         table.string('password').notNull()
         table.integer('level').notNull().defaultTo(0)
         table.timestamp('created_at').defaultTo(knex.fn.now())
